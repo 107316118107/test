@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
     <head>
@@ -5,8 +6,9 @@
         <title></title>
     </head>
     <body>
-        <form>
-             <table border="1" width="100%">
+        <form id="orderForm1" action="http://203.64.84.113/x/RQ_RS.aspx" method="post" name="form1">
+
+            <table border="1" width="100%">
 
                 <tr>
                     <td>
@@ -92,12 +94,12 @@
                         <input type="text" name="Doctor’s Notes">
                     </td>
                 </tr>
-                 <tr>
+                <tr>
                     <td>
-                           MEDICATIONS (CURRENTLY TAKING)
+                        MEDICATIONS (CURRENTLY TAKING)
                     </td>
                 </tr>
-              <tr>
+                <tr>
                     <th>
                         Name
                         <input type="text" name="Name">
@@ -109,9 +111,11 @@
                     <th>
                         Times/Day
                         <input type="text" name="Times/Day">
-                    </tr>
-             
-           <tr>
+                </tr>
+                <tr>
+                    <td>CHILD’S MEDICAL HISTORY </td>
+                </tr>
+                <tr>
                     <td>
                         Cerebral Palsy:
                         <input type="radio" name="Cerebral Palsy1" value="yes">yes
@@ -120,7 +124,7 @@
                 </tr>
                 <tr>
                     <td>
-                        Asthma:
+                        Asthma Palsy:
                         <input type="radio" name="Asthma Palsy1" value="yes">yes
                         <input type="radio" name="Asthma Palsy2" value="no">no
                     </td>
@@ -149,7 +153,8 @@
                         <input type="radio" name="Heart Murmur Palsy2" value="no">no
                     </td>
                 </tr>
-                 <tr>
+
+                <tr>
                     <td>
                         Constipation :
                         <input type="radio" name="Constipation  Palsy1" value="yes">yes
@@ -221,7 +226,11 @@
                         <input type="radio" name="Cancer    Palsy2" value="no">no
                     </td>
                 </tr>
-
+                <tr>
+                    <td>
+                        <input type="submit" value="提交">
+                    </td>
+                </tr>
             </table>
         </form>
     </body>
